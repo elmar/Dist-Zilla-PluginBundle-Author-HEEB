@@ -9,29 +9,31 @@ with 'Dist::Zilla::Role::PluginBundle::Easy';
 use namespace::autoclean;
 
 sub configure {
-  my ($self) = @_;
+    my ($self) = @_;
 
-  $self->add_plugins(qw(
-    GatherDir
-    PruneCruft
-    ManifestSkip
-    MetaYAML
-    License
-    Readme
-    PkgVersion
-    PodVersion
-    PodCoverageTests
-    PodSyntaxTests
-    ExtraTests
-    ExecDir
-    ShareDir
+    $self->add_plugins(
+        qw(
+            GatherDir
+            PruneCruft
+            ManifestSkip
+            MetaYAML
+            License
+            Readme
+            PkgVersion
+            PodVersion
+            PodCoverageTests
+            PodSyntaxTests
+            ExtraTests
+            ExecDir
+            ShareDir
 
-    MakeMaker
-    Manifest
+            MakeMaker
+            Manifest
 
-    ConfirmRelease
-    UploadToCPAN
-  ));
+            ConfirmRelease
+            UploadToCPAN
+        )
+    );
 }
 
 __PACKAGE__->meta->make_immutable;
