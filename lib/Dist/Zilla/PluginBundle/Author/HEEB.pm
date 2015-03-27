@@ -15,6 +15,11 @@ sub configure {
         qw(
             GatherDir
             PruneCruft
+        ),
+        [
+            PruneFiles => { filename => 'debian' },
+        ],
+        qw(
             ManifestSkip
             MetaYAML
             License
