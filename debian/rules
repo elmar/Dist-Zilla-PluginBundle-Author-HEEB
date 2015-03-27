@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with dist-zilla
+
+override_dh_dzil_build:
+	dh_dzil_build -- -I lib
+
+override_dh_dzil_clean:
+	dh_dzil_clean -- -I lib

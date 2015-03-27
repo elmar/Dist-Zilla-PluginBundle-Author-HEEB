@@ -1,0 +1,6 @@
+%YAML 1.2
+vim: set filetype=yaml :
+---
+Archive: CPAN
+Contact: Elmar S. Heeb <elmar@heebs.ch>
+Name: Dist-Zilla-PluginBundle-Author-HEEB
