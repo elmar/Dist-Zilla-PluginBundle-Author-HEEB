@@ -1,5 +1,5 @@
-libdist-zilla-pluginbundle-author-heeb-perl (0.002-1) UNRELEASED; urgency=low
+libdist-zilla-pluginbundle-author-heeb-perl (1.0-1) unstable; urgency=low
 
   * Initial Release.
 
- -- Elmar S. Heeb <elmar@heebs.ch>  Thu, 26 Mar 2015 17:04:04 +0100
+ -- Elmar S. Heeb <elmar@heebs.ch>  Fri, 27 Mar 2015 14:56:38 +0100
