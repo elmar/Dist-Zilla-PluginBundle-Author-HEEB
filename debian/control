@@ -6,7 +6,6 @@ Build-Depends: debhelper (>= 9)
 Build-Depends-Indep: dh-dist-zilla,
                      libconfig-ini-perl,
                      libdist-zilla-perl,
-                     libdist-zilla-pluginbundle-author-heeb-perl,
                      libmoose-perl,
                      libnamespace-autoclean-perl,
                      perl
