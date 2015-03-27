@@ -3,7 +3,7 @@ Section: perl
 Priority: optional
 Maintainer: Elmar S. Heeb <elmar@heebs.ch>
 Build-Depends: debhelper (>= 9)
-Build-Depends-Indep: perl
+Build-Depends-Indep: perl, dh-dist-zilla, libdist-zilla-pluginbundle-author-heeb-perl
 Standards-Version: 3.9.6
 Homepage: https://metacpan.org/release/Dist-Zilla-PluginBundle-Author-HEEB
 
