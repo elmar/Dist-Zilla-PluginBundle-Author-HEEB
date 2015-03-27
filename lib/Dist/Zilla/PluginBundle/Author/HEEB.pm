@@ -33,6 +33,7 @@ sub configure {
             ExecDir
             ShareDir
             AutoPrereqs
+            Test::Perl::Critic
             MakeMaker
             Manifest
 
