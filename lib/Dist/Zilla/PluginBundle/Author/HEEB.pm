@@ -32,7 +32,7 @@ sub configure {
             ExtraTests
             ExecDir
             ShareDir
-
+            AutoPrereqs
             MakeMaker
             Manifest
 
