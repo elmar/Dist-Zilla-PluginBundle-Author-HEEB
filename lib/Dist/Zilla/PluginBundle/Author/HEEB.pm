@@ -24,6 +24,7 @@ sub configure {
             MetaYAML
             License
             Readme
+            PodWeaver
             PkgVersion
             PodVersion
             PodCoverageTests
