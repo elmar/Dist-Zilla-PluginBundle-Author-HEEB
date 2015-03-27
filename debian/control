@@ -3,13 +3,23 @@ Section: perl
 Priority: optional
 Maintainer: Elmar S. Heeb <elmar@heebs.ch>
 Build-Depends: debhelper (>= 9)
-Build-Depends-Indep: perl, dh-dist-zilla, libdist-zilla-pluginbundle-author-heeb-perl
+Build-Depends-Indep: dh-dist-zilla,
+                     libconfig-ini-perl,
+                     libdist-zilla-perl,
+                     libdist-zilla-pluginbundle-author-heeb-perl,
+                     libmoose-perl,
+                     libnamespace-autoclean-perl,
+                     perl
 Standards-Version: 3.9.6
 Homepage: https://metacpan.org/release/Dist-Zilla-PluginBundle-Author-HEEB
 
 Package: libdist-zilla-pluginbundle-author-heeb-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}
+Depends: libdist-zilla-perl,
+         libmoose-perl,
+         libnamespace-autoclean-perl,
+         ${misc:Depends},
+         ${perl:Depends}
 Description: plugin bundle for distributions built by HEEB
  This bundle helps maintain consistency and control for perl packages
  (i.e., CPAN distributions) built by PAUSE author HEEB.
