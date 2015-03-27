@@ -36,9 +36,7 @@ sub configure {
             Test::Perl::Critic
             MakeMaker
             Manifest
-
-            ConfirmRelease
-            UploadToCPAN
+            FakeRelease
         )
     );
 }
