@@ -17,7 +17,9 @@ reflecting personal preferences and past experiences.
 
 E.g., this author likes to use `PruneFiles` so as to exclude the `debian`
 directory from the CPAN distribution. The Debian package is directly built from
-the upstream source using `dzil` via `dh-dist-zilla` rather than from the CPAN
+the upstream source using `dzil` via
+[`dh-dist-zilla`](https://tracker.debian.org/pkg/dh-dist-zilla) rather than
+from the CPAN
 distribution.
 
 Self-Referencing
