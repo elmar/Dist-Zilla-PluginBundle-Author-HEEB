@@ -1,3 +1,9 @@
+libdist-zilla-pluginbundle-author-heeb-perl (1.0.1-1) unstable; urgency=medium
+
+  * fixed dependencies
+
+ -- Elmar S. Heeb <elmar@heebs.ch>  Mon, 30 Mar 2015 16:59:02 +0200
+
 libdist-zilla-pluginbundle-author-heeb-perl (1.0-1) unstable; urgency=low
 
   * local package used for internal development
