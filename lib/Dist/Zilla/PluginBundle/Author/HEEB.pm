@@ -22,6 +22,7 @@ sub configure {
         qw(
             ManifestSkip
             MetaYAML
+            MetaJSON
             License
             Readme
             PodWeaver

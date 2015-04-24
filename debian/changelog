@@ -1,6 +1,6 @@
 libdist-zilla-pluginbundle-author-heeb-perl (1.0.2-1) UNRELEASED; urgency=medium
 
-  * (to be filled in)
+  * use MetaJSON Dist::Zilla plugin
 
  -- Elmar Heeb <elmar@uto.heebs.ch>  Fri, 24 Apr 2015 16:16:00 +0200
 
