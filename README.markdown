@@ -30,4 +30,5 @@ is easily achieved by using the `-Ilib` options when calling `dzil`. The
 `debian/rules` file automatically takes care of this.
 
 The downstream CPAN distribution requires neither Dist::Zilla nor this plugin
-bundle.
+bundle to be installed.  However, being a plugin bundle for Dist::Zilla its use
+only makes sense in conjunction with Dist::Zilla.
