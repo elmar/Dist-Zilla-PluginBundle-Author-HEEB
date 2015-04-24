@@ -45,19 +45,24 @@ sub configure {
 __PACKAGE__->meta->make_immutable;
 1;
 
-#pod =head1 DESCRIPTION
-#pod
-#pod This bundle is meant to allow consistency and control over the
-#pod build process for distributions built by PAUSE author HEEB.
-#pod It started out as a copy of the
-#pod L<@Classic|Dist::Zilla::PluginBundle::Classic> plugin bundle.
-#pod
-#pod The list of Dist::Zilla plugins it includes is best seen with
-#pod C<perldoc -m Dist::Zilla::PluginBundle::Author::HEEB>
-#pod
-#pod =head1 SEE ALSO
-#pod
-#pod L<@Basic|Dist::Zilla::PluginBundle::Basic>
-#pod L<@Classic|Dist::Zilla::PluginBundle::Classic>
-#pod
-#pod =cut
+__END__
+
+=head1 DESCRIPTION
+
+This bundle is meant to allow consistency and control over the
+build process for distributions built by PAUSE author HEEB.
+It started out as a copy of the
+L<@Classic|Dist::Zilla::PluginBundle::Classic> plugin bundle.
+
+The list of Dist::Zilla plugins it includes is best seen with
+C<perldoc -m Dist::Zilla::PluginBundle::Author::HEEB>
+
+=head1 SEE ALSO
+
+L<@Basic|Dist::Zilla::PluginBundle::Basic>
+L<@Classic|Dist::Zilla::PluginBundle::Classic>
+
+=cut
+
+=for Pod::Coverage
+configure -- internal method
