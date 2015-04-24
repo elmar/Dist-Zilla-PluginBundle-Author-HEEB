@@ -1,6 +1,9 @@
 Dist::Zilla::PluginBundle::Author::HEEB
 =======================================
 
+[![Travis CI Build Status](https://travis-ci.org/elmar/Dist-Zilla-PluginBundle-Author-HEEB.svg)](https://travis-ci.org/elmar/Dist-Zilla-PluginBundle-Author-HEEB)
+[![Coverage Status](https://coveralls.io/repos/elmar/Dist-Zilla-PluginBundle-Author-HEEB/badge.svg)](https://coveralls.io/r/elmar/Dist-Zilla-PluginBundle-Author-HEEB)
+
 This Dist::Zilla plugin bundle is used by
 [Elmar Heeb](https://metacpan.org/author/HEEB) to build the CPAN distributions
 that he authors. It is used as a convenience and to ensure consistency among
